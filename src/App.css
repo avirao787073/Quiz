@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.App{
+  height: 98.5vh;
+  background-color:#f7f9fc;
+  /* background-image: url('https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'); */
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #e998ad;
+  margin: 5px;
+  /* padding: 10px; */
+  /* color: aliceblue; */
+}
+
+
+

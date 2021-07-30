@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.setting{
+    width:45%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    /* color: #fafafa; */
+    font-weight: 300;
+}
+
+.banner{
+    width:55%;
+    align-self: center;
+    padding: 8px;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 640px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner{
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+        margin-bottom: 25px;
+    }
+    .setting{
+        width:100;
+        margin-bottom: 20px;
+    }
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 0.8;
+    justify-content: space-around;
+    /* margin-top: 25px; */
+}
+
+.name{
+    border: 1px solid white;
+}
